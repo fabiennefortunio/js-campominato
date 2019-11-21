@@ -25,7 +25,11 @@
 var numeri = [];
 var numero_iterazioni = 0;
 
+
+
 while(numeri.length < 84) {
+    var person = prompt('Inserisci un numero');
+    console.log(person);
     var numero = generaRandom(1, 100);
     console.log(numero);
 
@@ -37,8 +41,7 @@ while(numeri.length < 84) {
     console.log('numero iterazioni: ' + numero_iterazioni);
 }
 
-var person = prompt('Inserisci un numero');
-    console.log(person);
+
 
 
 // funzione che genera un numero random tra min e max
